@@ -35,6 +35,9 @@ export class GenieDialApi implements ICredentialType {
 			baseURL: 'https://app.geniedial.in',
 			url: '/api/health',
 			method: 'GET',
+			headers: {
+				'api-key': '={{$credentials.apiKey}}',
+			},
 		},
 	};
 }
