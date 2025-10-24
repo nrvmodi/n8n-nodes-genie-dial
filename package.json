@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-genie-dial",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "n8n node for GenieDial AI calling functionality",
   "keywords": [
     "n8n-community-node-package",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geniedial/n8n-nodes-genie-dial.git"
+    "url": "git+https://github.com/nrvmodi/n8n-nodes-genie-dial.git"
   },
   "main": "index.js",
   "scripts": {
